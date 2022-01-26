@@ -54,7 +54,7 @@
 
    There are two external libraries referenced in the project : java.util and org.junit .
 
-   According to second and third screenshots, there are 16 unused dependencies to the library java.util (10) and the internal packages (6).
+   According to second screenshot, there are 16 unused dependencies to the library java.util (10) and the internal packages (6).
 
    The use of those libraries tell us about the relevance of their use. Each library is called each time with a method that is supposed to be useful once for all instances of the class. So, there are no libraries applying the same effect. 
 
@@ -96,7 +96,7 @@
 
 ### 5.2 Comments
 
-   As it is shown in the fourth and fifth screenshots of SonarQube, there are 197 lines of comments, all of javadoc type.
+   As it is shown in the third and the fourth screenshots of SonarQube, there are 197 lines of comments, all of javadoc type.
 
    The parts without any comments are mostly the main classes since they are not documented. In SonarQube, they have just the name of the author which indicated, and therefore, have less than 5 lines of comments.
 
@@ -108,7 +108,7 @@
 
 ### 5.4 Code duplication
 
-   An analysis with SonarQube (sixth screenshot) revealed that the duplication code is present in the classes Strategy1 and Strategy2. 
+   An analysis with SonarQube (fifth screenshot) revealed that the duplication code is present in the classes Strategy1 and Strategy2. 
 
    A good way to avoid this is to gather the common behaviour of both classes in an abstract class and make them inherit from it.
 
@@ -120,7 +120,7 @@
 
 ### 5.6 Method analysis
 
-   Please refer to the seventh screenshot for the cyclomatic complexity. There are in total 646 lines of codes, according to the eighth screenshot.
+   Please refer to the sixth screenshot for the cyclomatic complexity. There are in total 646 lines of codes, according to the seventh screenshot.
 
 
 
