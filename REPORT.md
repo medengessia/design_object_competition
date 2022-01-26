@@ -56,7 +56,7 @@
 
    According to second and third screenshots, there are 16 unused dependencies to the library java.util (10) and the internal packages (6).
 
-   
+   The use of those libraries tell us about the relevance of their use. Each library is called each time with a method that is supposed to be useful once for all instances of the class. So, there are no libraries applying the same effect. 
 
 
 
