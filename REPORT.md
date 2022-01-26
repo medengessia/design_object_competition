@@ -115,6 +115,13 @@
 
 ### 5.5 God classes
 
+   What concerns this category of classes, Competition and Master possess the greatest numbers of method of the whole code.
+
+
+### 5.6 Method analysis
+
+   Please refer to the seventh screenshot for the cyclomatic complexity. There are in total 646 lines of codes, according to the eighth screenshot.
+
 
 
 
