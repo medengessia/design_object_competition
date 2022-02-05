@@ -1,6 +1,6 @@
 # COO - Project
 
-This repository belongs to **Matthieu Medeng Essia** and **Lounès Meddahi**.
+This repository belongs to **Matthieu Medeng Essia**.
 
 Informatique-Mathématiques bachelor's degree.
 
@@ -9,7 +9,7 @@ Informatique-Mathématiques bachelor's degree.
 On one hand, the project's subject aims to make an object analysis of a problem, which is organizing a sport's competition among several possible kinds (league or tournament) and between teams challenging each other into matches. On the other hand, another purpose of the project is to design a suitable solution by using object concepts and principles.
 
 
-## About our conception
+## About the conception
 
 ![](./UMLs/UML_picture.svg)
 
@@ -17,13 +17,13 @@ On one hand, the project's subject aims to make an object analysis of a problem,
 
 #### Prerequisites
 
-A Linux operating system providing a java compiler, available in M5 building, for instance.
+A Linux operating system providing a java compiler.
 
 #### Installation
 
-Import our folder from GitLab with :
+Import the folder from GitHub with :
 
-git clone https://gitlab-etu.fil.univ-lille1.fr/meddahil/meddahi-medengessia-coo-projet.git
+git clone https://github.com/medengessia/design_object_competition
 
 #### Create the javadoc
 Open a Terminal
@@ -36,7 +36,7 @@ Open a Terminal
 ../src>javadoc  `find . -name *.java` -d ../docs
 ```
 
-The javadoc of our project is now available in the folder docs
+The javadoc of the project is now available in the folder docs
 
 
 #### Compile our code
@@ -48,7 +48,7 @@ The javadoc of our project is now available in the folder docs
 ../src>javac ./competition/*.java -d ../classes
 ```
 
-Our codes are now available in the folder classes
+The code is now available in the folder classes
 
 
 #### Run our mains
@@ -682,7 +682,7 @@ Our goal was to respect different principles also known as "SOLID":
 
 -Interface Segregation Principle : Not yet used
 
--Dependency Inversion Principle : We use as much as possible mother classes when we use a class only depending on its type.
+-Dependency Inversion Principle : We used as much as possible mother classes when we use a class only depending on its type.
 
 In order to use what has already been done by others, we have tried to use design Patterns. For example, we have used Behavioral Patterns with Strategy.
 
